@@ -1,4 +1,4 @@
-package com.krushit.entity;
+package com.narola.krushit.entity;
 
 public class Vehicle {
     private int vehicle_id;

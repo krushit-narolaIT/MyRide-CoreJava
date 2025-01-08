@@ -1,4 +1,4 @@
-package com.krushit.entity;
+package com.narola.krushit.entity;
 
 import java.util.Date;
 

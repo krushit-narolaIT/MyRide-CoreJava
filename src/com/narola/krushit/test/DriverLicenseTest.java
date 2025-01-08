@@ -1,6 +1,6 @@
-package com.krushit.test;
+package com.narola.krushit.test;
 
-import com.krushit.entity.DriverLicense;
+import com.narola.krushit.entity.DriverLicense;
 
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;

@@ -1,4 +1,4 @@
-package com.krushit.entity;
+package com.narola.krushit.entity;
 
 public class User {
     private int id;
@@ -8,8 +8,19 @@ public class User {
     private String userEmail;
     private String userPhone;
 
+    public User() {
+    }
+
     public User(int id, String pass, String userFirstName, String userLastName, String userEmail, String userPhone) {
         this.id = id;
+        this.pass = pass;
+        this.userFirstName = userFirstName;
+        this.userLastName = userLastName;
+        this.userEmail = userEmail;
+        this.userPhone = userPhone;
+    }
+
+    public User(String pass, String userFirstName, String userLastName, String userEmail, String userPhone) {
         this.pass = pass;
         this.userFirstName = userFirstName;
         this.userLastName = userLastName;

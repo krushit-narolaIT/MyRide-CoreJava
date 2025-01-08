@@ -1,6 +1,6 @@
-package com.krushit.test;
+package com.narola.krushit.test;
 
-import com.krushit.entity.User;
+import com.narola.krushit.entity.User;
 
 import java.util.ArrayList;
 import java.util.List;

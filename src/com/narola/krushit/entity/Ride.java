@@ -1,4 +1,4 @@
-package com.krushit.entity;
+package com.narola.krushit.entity;
 
 import java.sql.Timestamp;
 
@@ -6,7 +6,7 @@ public class Ride {
     private int id;
     private int userId;
     private int driverId;
-    private String status; // ENUM: 'pending', 'in-progress', 'completed', 'cancelled'
+    private String status;
     private Timestamp startTime;
     private Timestamp endTime;
 
